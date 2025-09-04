@@ -17,7 +17,11 @@ let DatoBoleano = true;
 //¿Está el usuario logueado (true) o no está logueado (false)?
 
 var DatoNull = null;
+//El valor null es un concepto fundamental en programación y bases de datos que representa la ausencia intencional de un valor o la inexistencia de un valor especial con un solo estado posible, "vacío" 
 const DatoSinDefinir = undefined;
+//A diferencia de null, que es un valor que se asigna intencionalmente para representar la ausencia de datos, undefined es un estado predeterminado o automático que surge cuando se declara una variable sin darle un valor.
 let DatoSimbolo = Symbol;
+//Representa un valor primitivo único e inmutable que se utiliza para crear identificadores de propiedad de objeto únicos. A diferencia de las cadenas o números, cada Symbol es distinto incluso si tienen la misma descripción, lo que garantiza la unicidad y evita conflictos en las claves de los objetos. 
 
 var DatoBigInt = BigInt;
+//Es un tipo de dato numérico que permite representar enteros con precisión arbitraria por ejemplo numeros infinitos como PI: 3.14159265358979323846264338327950288419716939937510582097494459230781640628620.
