@@ -39,3 +39,11 @@ Los objetos y funciones son valores NO primitivos, porque a diferencia de los va
 * Objects ({} y otros): los usamos para agrupar otros valores relacionados.
 
 * Functions (function(x) { return x * 2; } y otras): las usamos para hacer referencia a un pedazo de código.
+
+## Objetos
+
+Un objeto es un dato más completo ya que puede contener datos dentro de sus datos, a estos datos anidados les llamamos "propiedades". Tiene una estructura que les permite alojar una infinidad de datos internos y mecánicas para manipular dichos datos.
+
+## Funciones
+
+Como ya vimos, para crear un objeto usamos la expresión { }, y para crear una función usamos la expresión function() { } por lo que estamos creando un objeto y le estamos dando el valor dentro del bloque de código entre sus llaves, en pocas palabras las Funciones son Valores
