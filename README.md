@@ -47,3 +47,6 @@ Un objeto es un dato más completo ya que puede contener datos dentro de sus dat
 ## Funciones
 
 Como ya vimos, para crear un objeto usamos la expresión { }, y para crear una función usamos la expresión function() { } por lo que estamos creando un objeto y le estamos dando el valor dentro del bloque de código entre sus llaves, en pocas palabras las Funciones son Valores
+
+### Scope (Alcance)
+Uno de los conceptos más importantes en programación es el "scope" o alcance. En términos simples, el scope determina la visibilidad o accesibilidad de variables, funciones y objetos en alguna parte de tu código durante el "tiempo de ejecución" (mientras dura el programa).
