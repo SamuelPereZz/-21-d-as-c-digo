@@ -65,3 +65,15 @@ En JavaScript, hay varios tipos de igualdad:
 - Igualdad de Mismo Valor: Object.is(a, b).
 
 La igualdad de mismo valor (same value equality) es el menos conocido de los tres. Empecemos por ahí.
+
+## Mutaciones
+
+Propiedades y Valores: Una propiedad no puede apuntar a otra propiedad o a una variable; siempre apunta directamente a un valor.
+
+Cambios de Propiedad: Cuando cambiamos el valor al que apunta una propiedad (por ejemplo, john.apellido = 'Lennon'), estamos mutando ese objeto específico.
+
+Compartir Objetos entre Variables: Debemos tener cuidado cuando dos variables (o propiedades) apuntan al mismo objeto (como en el caso de john.direccion y sherlock.direccion). Mutar una propiedad de ese objeto afectará a todas las referencias a ese objeto.
+
+Mutación y sus Implicaciones: La mutación es simplemente un cambio en los datos. Aunque no es inherentemente mala, puede llevar a efectos no deseados si no somos intencionados al mutar objetos, especialmente cuando se comparten entre varias partes de nuestro código.
+
+## Funciones
