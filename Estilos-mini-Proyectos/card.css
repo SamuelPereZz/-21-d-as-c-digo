@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+}
