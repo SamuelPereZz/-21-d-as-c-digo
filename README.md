@@ -77,3 +77,19 @@ Compartir Objetos entre Variables: Debemos tener cuidado cuando dos variables (o
 Mutación y sus Implicaciones: La mutación es simplemente un cambio en los datos. Aunque no es inherentemente mala, puede llevar a efectos no deseados si no somos intencionados al mutar objetos, especialmente cuando se comparten entre varias partes de nuestro código.
 
 ## Funciones
+Una función en JavaScript es un bloque de código reutilizable diseñado para realizar una tarea específica o calcular un valor. Las funciones pueden recibir entradas (parámetros) y opcionalmente devolver una salida (retorno).
+
+function nombreFuncion(parametro) {
+  // cuerpo de la función
+}
+
+nombreFuncion("Retorno")
+
+### Invocar (llamar) a una función
+Lo que hace especial a una función sobre cualquier otro valor, es la capacidad de invocar (o llamar) a la función para ejecutar el código que almacena. Simplemente utilizamos su nombre seguido de paréntesis:
+
+function saludar() {
+  console.log("¡Hola, mundo!");
+}
+ 
+saludar(); // ¡Hola, mundo!
