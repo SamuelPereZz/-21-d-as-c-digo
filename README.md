@@ -88,6 +88,12 @@ nombreFuncion("Retorno")
 ### Invocar (llamar) a una función
 Lo que hace especial a una función sobre cualquier otro valor, es la capacidad de invocar (o llamar) a la función para ejecutar el código que almacena. Simplemente utilizamos su nombre seguido de paréntesis:
 
+### Scope (Alcance)
+Uno de los conceptos más importantes en programación es el "scope" o alcance. En términos simples, el scope determina la visibilidad o accesibilidad de variables, funciones y objetos en alguna parte de tu código durante el "tiempo de ejecución" (mientras dura el programa).
+
+### Variables Locales
+Las variables definidas dentro de una función son locales para esa función. No pueden ser accedidas fuera de la función.
+
 function saludar() {
   console.log("¡Hola, mundo!");
 }
